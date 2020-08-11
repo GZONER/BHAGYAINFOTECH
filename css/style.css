@@ -1,0 +1,201 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*-- Reset-Code --*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+body a:focus, a:hover {
+	text-decoration: none;
+}
+
+input[type="button"],input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+} 
+
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+
+/*-- //Reset-Code --*/
+
+
+
+/*-- Index-Page-Styling --*/
+
+
+/*-- Link-Hover-Effect --*/
+
+
+
+
+.navbar-brand{
+	font-weight: 900;
+}
+
+/*-- About --*/
+.about {
+	padding: 50px 0;
+}
+
+.about h3 {
+	padding: 0 50px;
+	line-height: 40px;
+	color: green;
+	font-weight: 600;
+}
+
+.about h4 {
+	
+	font-weight: 600;
+	font-size: 20px;
+	margin: 30px 0 20px;
+	color: rgb(46, 221, 11);
+}
+
+.about-info-list1, .about-info-list2, .about-info-image {
+	width: 50%;
+	float: left;
+}
+
+.about-info-grid h4 {
+	font-size: 25px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #14af00;
+}
+
+.about-info-grid li {
+	display: block;
+
+}
+
+.about-info-grid li span.glyphicon {
+
+	color: #009688;
+}
+
+.about-info-grid li {
+	display: block;
+	font-weight: 600;
+}
+/*cctv*/
+.cctv h2{
+	font-weight: 800;
+	float: left;
+	color: #009688;
+}
+.cctv p{
+	font-weight: 700;
+	font-size: 30px;
+	float: left;
+	color: #20ff02;
+	text-align: left;
+}
+.cctv-child{
+	border: none;
+	border-left:14px solid #14af00  ;
+	padding: 10px;
+	padding-top: 0px;
+}
+.aboutus button{
+	border-radius: 14px;
+	font-size: 26px;
+}
+.aboutus button:hover{
+	transition-duration: 0.4s;
+	border-color: rgb(0, 217, 255);
+	color: rgb(0, 217, 255);
+}
+/*-- //About --*/
+
+
+
+.footer a{
+text-decoration: none;
+
+}
+.footer h4{
+color: white;
+}
+footer{
+margin-bottom: 0px;
+width: 100%;
+background: rgba(0, 0, 0, .6);
+}
+@media (max-width:1366px){
+       .about h4{
+	    font-size: 30px;
+		}
+	}
+@media (max-width:576px){
+	.about h4{
+	    font-size: 20px;
+		}
+	.about h3{
+		font-size: 20px;
+	}
+	.cctv h2{
+		font-weight: 600;
+		font-size: 25px;
+	}
+	.cctv p{
+		font-weight: 600;
+		font-size: 20px;
+		float: left;
+		color: #20ff02;
+		text-align: left;
+	}
+}
